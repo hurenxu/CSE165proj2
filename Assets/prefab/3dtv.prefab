@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 54963195190975284}
   m_Layer: 0
   m_Name: 3dtv
-  m_TagString: Untagged
+  m_TagString: tv
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

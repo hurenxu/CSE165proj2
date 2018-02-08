@@ -1510,7 +1510,7 @@ GameObject:
   - component: {fileID: 54145242263200496}
   m_Layer: 0
   m_Name: locker
-  m_TagString: Untagged
+  m_TagString: locker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7847,5 +7847,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.24030566, y: 0.23548765, z: 1.4345187}
-  m_Center: {x: 0.012979864, y: -0.0045653433, z: -0.0029869871}
+  m_Size: {x: 0.24030566, y: 0.23548765, z: 1.4219483}
+  m_Center: {x: 0.012979864, y: -0.004565338, z: -0.009272178}
