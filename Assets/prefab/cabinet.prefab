@@ -36,6 +36,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4579068467085734}
   - component: {fileID: 54911700509682610}
+  - component: {fileID: 114807421675402966}
+  - component: {fileID: 64685706424289248}
   m_Layer: 0
   m_Name: cabinet
   m_TagString: cabinet
@@ -161,6 +163,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &64685706424289248
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274818031718730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
 --- !u!65 &65420072538762010
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -173,3 +189,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.689873, y: 12.449584, z: 10.954293}
   m_Center: {x: -0.04104629, y: 0.06700635, z: 0.06681323}
+--- !u!114 &114807421675402966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274818031718730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []

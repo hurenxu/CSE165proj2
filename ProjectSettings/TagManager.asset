@@ -10,6 +10,9 @@ TagManager:
   - desk
   - locker
   - whiteboard
+  - deskTotal
+  - b1
+  - b2
   layers:
   - Default
   - TransparentFX
