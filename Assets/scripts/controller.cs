@@ -517,15 +517,11 @@ public class controller : MonoBehaviour
         obj.GetComponent<Rigidbody>().useGravity = true;
         obj.transform.SetParent(null);
         MeshRenderer[] meshRenderers = obj.GetComponentsInChildren<MeshRenderer>();
-        foreach (var mesh in meshRenderers)
+        MeshRenderer[] originRenders = gameObj.GetComponentsInChildren<MeshRenderer>();
+        for (int i = 0; i < gameObj.GetComponentsInChildren<MeshRenderer>().Length; i++)
         {
-            mesh.materials = materialMap[mesh];
-            //foreach (var mat in mesh.materials)
-            //{
-            //    Color matColor = mat.color;
-            //    matColor = Color.clear;
-            //    mat.color = matColor;
-            //}
+            meshRenderers[i].materials = materialMap[originRenders[i]];
+            materialMap[meshRenderers[i]] = meshRenderers[i].materials;
         }
     }
 
